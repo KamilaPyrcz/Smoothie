@@ -1,0 +1,25 @@
+{
+  "name": "smoothie-page",
+  "version": "1.0.0",
+  "description": "Smoothie Delights",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kamila Pyrcz",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-wait": "0.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "jquery": "^3.4.1",
+    "node": "^12.3.0"
+  }
+}
