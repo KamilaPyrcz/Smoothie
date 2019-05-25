@@ -2,10 +2,46 @@
 .header-inner {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
 
-    
-    div {
+    min-height: 160px;
 
+    .container {
+        padding: 20px;
     }
+}
+
+.container-left {
+    flex-basis: 20%;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: row;
+    max-height: 160px;
+
+
+
+    .logo-container {
+        img {
+            max-width: 100%;
+            max-height:100%;
+            display: block;
+            margin: 0 auto;
+            vertical-align: middle;
+        }
+        
+    }
+
+    .brand-text {   
+        display: flex;
+        align-items: flex-end;
+        font-family: montserrat;
+        font-size: 70px;
+    }
+}
+
+.container-right {
+    flex-basis: 20%;
 }

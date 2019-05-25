@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "author": "Kamila Pyrcz",
-  "license": "MIT",
+  "license": "none",
   "devDependencies": {
     "browser-sync": "^2.26.5",
     "gulp": "^4.0.2",
