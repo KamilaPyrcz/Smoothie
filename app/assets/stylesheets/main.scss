@@ -1,3 +1,7 @@
-@import '_abstracts';
-@import '_layout';
-@import '_reset';
+@import 'base/_abstracts';
+@import 'base/_base';
+@import 'layout/_header';
+@import 'layout/_intro';
+@import 'layout/_about';
+@import 'layout/_benefits';
+@import 'layout/_newsletter';

@@ -19,7 +19,8 @@ gulp.task('serve', gulp.series('sass', function () {
 			baseDir:'./app'
 		}
 	});
-	gulp.watch('app/assets/stylesheets/_*.scss',  gulp.series('sass')).on('change', browserSync.reload)
+	gulp.watch('app/assets/stylesheets/**/_*.scss',  gulp.series('sass')).on('change', browserSync.reload)
+	gulp.watch('app/assets/stylesheets/*.scss',  gulp.series('sass')).on('change', browserSync.reload)
 	gulp.watch('app/*.html').on('change', browserSync.reload)
 	gulp.watch('app/*.js').on('change', browserSync.reload)
 }));

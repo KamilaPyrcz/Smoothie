@@ -1,0 +1,99 @@
+
+///// ABOUT SECTION /////
+
+.about__section {
+    height: 680px;
+}
+
+.about__container {
+    height: inherit;
+    background-image: url("../img/happycomp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gradient-wrapper {
+    display: block;
+    height: 680px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0, rgba(255,255,250,0.5) 80%);
+}
+.about__content {
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 615px;
+    float: right;
+    padding-top: 3%;
+    padding-right: 3%;
+
+    font-family: JosefinBold;
+    color: #47754B;
+
+    h1 {
+        font-size: 50px;
+        padding: 10px 0;
+
+        span {
+            color: rgba(255,158,5,0.75);
+        }
+    }
+
+    p {
+        font-size: 20px;
+        width: 380px;
+        text-align: justify;
+    }
+    
+}
+
+///////// Media /////////
+
+
+@media screen and (max-width: 1280px) {
+
+    .about__content {
+        float: left;
+        margin-top: 10%;
+        margin-left: 10%;
+        padding: 30px;
+        background-color: #ffffff;
+        background-image: none;
+     
+    }
+
+}
+  
+@media screen and (max-width: 800px) {
+    .about__section {
+        height: 575px;
+    }
+}
+  
+@media screen and (max-width: 680px) {
+    .about__section {
+        height: 400px;
+    }
+    .about__content {
+        
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 5%;
+    
+        h1 {
+            font-size: 30px;
+            padding: 5px 0;
+            width: 500px;
+        }
+    
+        p {
+            font-size: 15px;
+            width: 80%;
+        }
+        
+    }
+}
+  
+
+  
+  
